@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1>Vítej v tvojí bance (aka nejlepší banka na světě)</h1>
+    <button onclick="kolikmoney()">kolik mam penez</button>
+    <br>
+    <br>
+    <h3>vklad</h3>
+    <input type="number" id="vklad" placeholder="Kolik chcete vložit">
+    <button onclick="vklad()">vložte peníze</button>
+    <br>
+    <br>
+    <h3>vydaj</h3>
+    <input type="vydaj" id="vydaj" placeholder="Kolik chcete vybrat peněz">
+    <button onclick="vydaj()">vybrat penízky</button>
+    <input type="number" id="typ vydaje" placeholder="na co to chcete vybrat">
+    <br>
+    <br>
+    <h3>výpočet DPH</h3>
+    <input type="number" id="DPH" placeholder="u kolika korun chcete vyp DPH">
+    <button onclick="vypDPH()">vypočítat DPH</button>
+    <br>
+    <br>
+    <h3>převod měny</h3>
+    <button onclick="prevod()">Převod měny</button>
+    <br>
+    <br>
+    <h3>výpočet investicí</h3>
+    <input type="number" id="prvnivklad" placeholder="První vklad" >
+    <input type="number" id="mesvlkad" placeholder="Mesiční vklad" >
+    <input type="number" id="kolikrocnevydela" placeholder="Roční úroky" >
+    <input type="number" id="koliklet" placeholder="Po kolik let" >
+    <button onclick="investice()">vypočítat investice</button>
+    <br>
+    <br>
+    <h3>přihlásit se</h3>
+    <button onclick="login()">login</button>
+    <br>
+    <br>
+    
+</body>
+</html>
